@@ -6,3 +6,14 @@
 
 
 > Linux also have TX and RX states
+
+
+
+
+## Быстрая установка
+
+```bash
+# Установить одной командой:
+pip install git+https://github.com/wardenvW/wardenConfig.git
+
+```
