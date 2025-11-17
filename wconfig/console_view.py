@@ -2,7 +2,7 @@ from rich.console import Console
 from rich.table import Table
 from rich.text import Text
 from rich import box
-from parser import network_parse
+from .parser import network_parse
 import subprocess
 
 console = Console(width=180)

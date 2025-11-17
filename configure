@@ -1,0 +1,33 @@
+#!/bin/bash
+
+echo "-----------------------------------------"
+echo " Checking system for installing wconfig..."
+echo "-----------------------------------------"
+echo
+
+if ! command -v python3 &> /dev/null; then
+    echo "❌ ERROR: Python3 is not installed"
+    echo "Try: sudo apt install python3"
+    exit 1
+fi
+
+if ! python3 -m pip --version &> /dev/null; then
+    echo "❌ ERROR: pip is not installed"
+    echo "Try: sudo apt install python3-pip"
+    exit 1
+fi
+
+echo "✅ Python3 version: $(python3 --version)"
+echo "✅ pip version: $(python3 -m pip --version)"
+echo
+
+
+PREFIX="/usr/local"
+if [ ! -z "$1" ]; then
+    PREFIX="$1"
+fi
+
+echo "Prefix for installation: $PREFIX"
+echo
+echo "You're ready to install wconfig!"
+echo "Run: make install PREFIX=$PREFIX"
