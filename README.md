@@ -25,6 +25,4 @@ To install wconfig globally (requires sudo):
 sudo make install
 ```
 
-```bash
 **wconfig** - to use
-```
