@@ -1,0 +1,5 @@
+markdown-it-py==4.0.0
+mdurl==0.1.2
+Pygments==2.19.2
+rich==14.2.0
+setuptools==80.9.0
