@@ -5,8 +5,8 @@ Follow these steps to install **wconfig** on your system.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/username/wconfig.git
-cd wconfig
+git clone https://github.com/wardenvW/wardenConfig.git
+cd wardenConfig
 ```
 
 ### 2. Check your system
