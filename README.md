@@ -16,4 +16,4 @@
 # Установить одной командой:
 pip install git+https://github.com/wardenvW/wardenConfig.git
 
-```
+
