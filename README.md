@@ -30,7 +30,6 @@ To install wconfig globally
 
 ```
 install.bat
-
 ```
 
 **wconfig** - to use
