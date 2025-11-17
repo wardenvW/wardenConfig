@@ -1,8 +1,28 @@
-# wardenConfig
-> Simple CI(CONSOLE INTERFACE)  of ifconfig(**Linux**) and ipconfig(**Win**)
+## Installation
 
-**Type `wconfig` in console and get information of all network interfaces on your pc**
+Follow these steps to install **wconfig** on your system.
 
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/username/wconfig.git
+cd wconfig
+```
 
-> Linux also have TX and RX states
+### 2. Check your system
+
+Run the configure script to make sure Python3 and pip are installed:
+
+```bash
+./configure
+```
+
+### 3. Install
+
+To install wconfig globally (requires sudo):
+
+```bash
+sudo make install
+```
+
+**wconfig** - to use
