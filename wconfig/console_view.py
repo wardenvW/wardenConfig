@@ -21,6 +21,7 @@ def display_posix(interfaces):
     for iface in interfaces:
         name = str(iface.get("name") or "-")
         status = str(iface.get('status') or "-")
+        mtu = str(iface.get('mtu') or '-')
         ipv4 = str(iface.get('ipv4') or "-")
         ipv6 = str(iface.get('ipv6') or "-")
         mask = str(iface.get('mask') or "-")
@@ -32,6 +33,7 @@ def display_posix(interfaces):
 
         values = [
             f"Status : {status}",
+            f"MTU    : {mtu}",
             f"IPv4   : {ipv4}",
             f"IPv6   : {ipv6}",
             f"Mask   : {mask}",
@@ -54,6 +56,8 @@ def display_posix(interfaces):
             Text("Status : ", style=status_color) + Text(status, style=status_color)
         )
 
+        mtu_text =  Text("MTU    : ", style="white") + Text(mtu, style= "#bold #024961")
+        table.add_row(mtu_text)
 
         ipv4_text = Text("IPv4   : ", style="white") + Text(ipv4, style= "bold #006688")
         table.add_row(ipv4_text)
