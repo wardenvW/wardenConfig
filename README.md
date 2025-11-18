@@ -1,0 +1,36 @@
+## Installation
+
+Follow these steps to install **wconfig** on your system.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/wardenvW/wardenConfig.git
+cd wardenConfig
+```
+
+### 2. Check your system
+
+Run the configure script to make sure Python3 and pip are installed:
+```bash
+./configure
+```
+
+### 3. Install
+
+## Linux/Mac only!!!
+To install wconfig globally (requires sudo):
+
+```bash
+sudo apt install python3-venv
+sudo make install
+```
+
+## Windows
+To install wconfig globally
+
+```
+install.bat
+```
+
+**wconfig** - to use
