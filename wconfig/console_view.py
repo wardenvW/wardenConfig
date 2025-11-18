@@ -56,7 +56,7 @@ def display_posix(interfaces):
             Text("Status : ", style=status_color) + Text(status, style=status_color)
         )
 
-        mtu_text =  Text("MTU    : ", style="white") + Text(mtu, style= "#bold #024961")
+        mtu_text =  Text("MTU    : ", style="white") + Text(mtu, style= "bold #024961")
         table.add_row(mtu_text)
 
         ipv4_text = Text("IPv4   : ", style="white") + Text(ipv4, style= "bold #006688")
